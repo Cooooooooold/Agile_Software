@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_setting"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="设置"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_about"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:title="关于"
+        app:showAsAction="ifRoom" />
+
+
+    <item
+        android:id="@+id/menu_exit"
+        android:icon="@drawable/ic_baseline_close_24"
+        android:title="退出"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_help"
+        android:icon="@drawable/ic_baseline_help_24"
+        android:title="帮助"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="主页"
+        app:showAsAction="ifRoom" />
+
+</menu>
